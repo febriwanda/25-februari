@@ -1,0 +1,57 @@
+.soal .soal1 label{
+    display: block;
+}
+
+.soal {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #cecbfd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.soal1 p {
+    font-size: 18px;
+    color: rgb(99, 4, 4);
+    margin-bottom: 10px;
+}
+
+
+.soal1 label {
+    display: block;
+    font-size: 16px;
+    color: rgb(97, 5, 5);
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.soal1 input[type="radio"] {
+    margin-right: 8px;
+}
+
+button{
+    display: block;
+    width: 50%;
+    padding: 9px;
+    font-size: 18px;
+    color: rgb(255, 151, 215);
+    background-color: #f882d1;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    justify-content: start;
+    justify-items: start;
+}
+
+button:hover {
+    background-color: #9782f8;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
